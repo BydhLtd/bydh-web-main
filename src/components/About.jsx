@@ -17,21 +17,7 @@ const About = () => {
   return (
     <div>
       <Container id="about" maxWidth="lg" sx={{ width: "100%" }} >
-      <Box sx={{ width: "100%", height: "40%" }}>
-        <Swiper
-          cssMode={true}
-          navigation={true}
-          pagination={true}
-          mousewheel={true}
-          keyboard={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-          className="mySwiper"
-        >
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2 </SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-        </Swiper>
-      </Box>
+      
 
         <Typography
           variant="h2"
@@ -50,6 +36,22 @@ const About = () => {
         <Typography variant="h5" align="center" color="textSecondary" paragraph>
           Alan Alan Alan
         </Typography>
+
+        <Box sx={{ width: "100%", height: "100%" }}>
+        <Swiper
+          cssMode={true}
+          navigation={true}
+          pagination={true}
+          mousewheel={true}
+          keyboard={true}
+          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          className="mySwiper"
+        >
+          <SwiperSlide>Slide 1</SwiperSlide>
+          <SwiperSlide>Slide 2 </SwiperSlide>
+          <SwiperSlide>Slide 3</SwiperSlide>
+        </Swiper>
+      </Box>
         
         <div>
           <Grid container spacing={3} justifyContent="center">
