@@ -52,7 +52,7 @@ const HeaderAppBar = ({routes}) => {
               textDecoration: 'none',
             }}
           >
-            BYDH1
+            Home
           </Typography>
       </Box>
     );
