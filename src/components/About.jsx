@@ -1,10 +1,38 @@
 import * as React from "react";
 import { Typography, Container, Grid, Button } from "@mui/material";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+import Box from "@mui/material/Box";
+
+// Import Swiper styles
+import "swiper/css";
+import 'swiper/css/navigation';
+import "swiper/css/pagination";
+
+import "../style.css";
+
+
 const About = () => {
   return (
     <div>
-      <Container maxWidth="lg">
+      <Container id="about" maxWidth="lg">
+      <Box sx={{ width: "100%", height: "40%" }}>
+        <Swiper
+          cssMode={true}
+          navigation={true}
+          pagination={true}
+          mousewheel={true}
+          keyboard={true}
+          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          className="mySwiper"
+        >
+          <SwiperSlide>Slide 1</SwiperSlide>
+          <SwiperSlide>Slide 2 </SwiperSlide>
+          <SwiperSlide>Slide 3</SwiperSlide>
+        </Swiper>
+      </Box>
+
         <Typography
           variant="h2"
           align="center"
@@ -22,19 +50,17 @@ const About = () => {
         <Typography variant="h5" align="center" color="textSecondary" paragraph>
           Alan Alan Alan
         </Typography>
-        <Typography variant="h5" align="center" color="textSecondary" paragraph>
-          Laughing Laughing Laughing
-        </Typography>
+        
         <div>
           <Grid container spacing={3} justifyContent="center">
             <Grid item>
               <Button variant="contained" color="primary">
-                BYDH
+                Button1
               </Button>
             </Grid>
             <Grid item>
               <Button variant="outlined" color="primary">
-                BYDH
+              Button2
               </Button>
             </Grid>
           </Grid>
