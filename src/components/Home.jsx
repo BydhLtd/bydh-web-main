@@ -65,6 +65,12 @@ const Home = () => {
         </Typography>
       </CardContent>
 
+      <CardContent>
+        <Typography variant="h6" align="center" color="textSecondary" paragraph>
+          paragraph 3 placeholding
+        </Typography>
+      </CardContent>
+
       <div>
         <Grid container spacing={3} justifyContent="center">
           <Grid item>
