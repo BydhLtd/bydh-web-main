@@ -29,7 +29,7 @@ const App = () => {
       <CssBaseline />
       <Router basename="/">
         <Container id="app" >
-          <Container>
+          <Container id="header-app-bar">
             <HeaderAppBar routes={routes}></HeaderAppBar>
           </Container>
           <Routes>

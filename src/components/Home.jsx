@@ -15,6 +15,7 @@ import Box from "@mui/material/Box";
 
 
 import Innovation  from '../resources/images/innovation.png'
+import Logo  from '../resources/images/BYDH.png'
 
 // Import Swiper styles
 import "swiper/css";
@@ -37,12 +38,12 @@ const Home = () => {
           className="mySwiper"
         >
           <SwiperSlide><img src={Innovation} alt="Innovation"></img></SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
+          <SwiperSlide><img src={Logo} alt="Logo"></img> </SwiperSlide>
           <SwiperSlide>Slide 3</SwiperSlide>
         </Swiper>
       </Box>
       <Typography variant="h2" align="center" color="textPrimary" gutterBottom>
-        BYDH
+        so cool 123
       </Typography>
       <CardContent>
         <Typography variant="h6" align="center" color="textSecondary" paragraph>

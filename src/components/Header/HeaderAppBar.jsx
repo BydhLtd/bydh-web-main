@@ -15,6 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import { Link,  useLocation } from "react-router-dom";
+import Logo  from '../../resources/images/BYDH.png';
 
 
 const pages = ['About', 'Business' ];
@@ -60,7 +61,7 @@ const HeaderAppBar = ({routes}) => {
 
   return (
     // <AppBar position="static" color='transparent'>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" id='test'>
         <Toolbar disableGutters>
           <Box 
           sx={{ 
