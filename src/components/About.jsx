@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Typography, Container, Grid, Button } from "@mui/material";
+import { Typography, Container, Grid, Button,} from "@mui/material";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
@@ -16,7 +16,7 @@ import "../style.css";
 const About = () => {
   return (
     <div>
-      <Container id="about" maxWidth="lg">
+      <Container id="about" maxWidth="lg" sx={{ width: "100%" }} >
       <Box sx={{ width: "100%", height: "40%" }}>
         <Swiper
           cssMode={true}
