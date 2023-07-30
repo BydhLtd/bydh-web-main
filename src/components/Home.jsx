@@ -43,7 +43,7 @@ const Home = () => {
         </Swiper>
       </Box>
       <Typography variant="h2" align="center" color="textPrimary" gutterBottom>
-        so cool 123
+        BYDH Construction Ltd
       </Typography>
       <CardContent>
         <Typography variant="h6" align="center" color="textSecondary" paragraph>
