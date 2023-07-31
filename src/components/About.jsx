@@ -5,6 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import Box from "@mui/material/Box";
 
+import Logo  from '../resources/images/BYDH.png'
+
 // Import Swiper styles
 import "swiper/css";
 import 'swiper/css/navigation';
@@ -47,7 +49,7 @@ const About = () => {
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
           className="mySwiper"
         >
-          <SwiperSlide>Slide 1</SwiperSlide>
+          <SwiperSlide><img src={Logo} alt="Logo"></img> </SwiperSlide>
           <SwiperSlide>Slide 2 </SwiperSlide>
           <SwiperSlide>Slide 3</SwiperSlide>
         </Swiper>
