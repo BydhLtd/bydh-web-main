@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import Box from "@mui/material/Box";
 
-import aboutSwiperImage1  from '../resources/images/44PhillipStreet-1.jpg'
-import aboutSwiperImage2  from '../resources/images/44PhillipStreet-2.jpg'
-import aboutSwiperImage3  from '../resources/images/44PhillipStreet-3.jpg'
-import aboutSwiperImage4  from '../resources/images/44PhillipStreet-4.jpg'
+import aboutSwiperImage1 from '../resources/images/44PhillipStreet-1.jpg'
+import aboutSwiperImage2 from '../resources/images/44PhillipStreet-2.jpg'
+import aboutSwiperImage3 from '../resources/images/44PhillipStreet-3.jpg'
+import aboutSwiperImage4 from '../resources/images/44PhillipStreet-4.jpg'
 
 
 // Import Swiper styles
@@ -62,6 +62,12 @@ const About = () => {
           certifications. This ensures that our work is carried out by qualified
           individuals who are well-versed in the latest building standards and
           practices.
+        </Typography>
+      </CardContent>
+
+      <CardContent>
+        <Typography variant="h6" align="left" color="textSecondary" paragraph>
+         True
         </Typography>
       </CardContent>
 
