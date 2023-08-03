@@ -5,10 +5,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import Box from "@mui/material/Box";
 
-import aboutSwiperImage1  from '../resources/images/44 Phillip Street-1.jpg'
-import aboutSwiperImage2  from '../resources/images/44 Phillip Street-2.jpg'
-import aboutSwiperImage3  from '../resources/images/44 Phillip Street-3.jpg'
-import aboutSwiperImage4  from '../resources/images/44 Phillip Street-4.jpg'
+import aboutSwiperImage1  from '../resources/images/44 Phillip Street-1.jpg';
+import aboutSwiperImage2  from '../resources/images/44 Phillip Street-2.jpg';
+import aboutSwiperImage3  from '../resources/images/44 Phillip Street-3.jpg';
+import aboutSwiperImage4  from '../resources/images/44 Phillip Street-4.jpg';
+
 
 // Import Swiper styles
 import "swiper/css";
