@@ -5,7 +5,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import Box from "@mui/material/Box";
 
-import Logo  from '../resources/images/BYDH.png'
+import aboutSwiperImage1  from '../resources/images/44 Phillip Street-1.jpg'
+import aboutSwiperImage2  from '../resources/images/44 Phillip Street-2.jpg'
+import aboutSwiperImage3  from '../resources/images/44 Phillip Street-3.jpg'
+import aboutSwiperImage4  from '../resources/images/44 Phillip Street-4.jpg'
 
 // Import Swiper styles
 import "swiper/css";
@@ -18,29 +21,8 @@ import "../style.css";
 const About = () => {
   return (
     <div>
-      <Container id="about" maxWidth="lg" sx={{ width: "100%" }} >
-      
-
-        <Typography
-          variant="h2"
-          align="center"
-          color="textPrimary"
-          gutterBottom
-        >
-          BYDH
-        </Typography>
-        <Typography variant="h5" align="center" color="textSecondary" paragraph>
-          SUNNY SUNNY SUNNY SUNNY SUNNY
-        </Typography>
-        <Typography variant="h5" align="center" color="textSecondary" paragraph>
-          Qing Qing Qing
-        </Typography>
-        <Typography variant="h5" align="center" color="textSecondary" paragraph>
-          Alan Alan Alan
-        </Typography>
-
-        <Box sx={{ width: "100%", height: "100%" }}>
-        <Swiper
+      <Container id="about" maxWidth="lg" sx={{ width: "40%" }} >
+      <Swiper
           cssMode={true}
           navigation={true}
           pagination={true}
@@ -49,10 +31,41 @@ const About = () => {
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
           className="mySwiper"
         >
-          <SwiperSlide><img src={Logo} alt="Logo"></img> </SwiperSlide>
-          <SwiperSlide>Slide 2 </SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
+          <SwiperSlide><img src={aboutSwiperImage1} alt="Ab1"></img> </SwiperSlide>
+          <SwiperSlide><img src={aboutSwiperImage2} alt="Ab2"></img> </SwiperSlide>
+          <SwiperSlide><img src={aboutSwiperImage3} alt="Ab3"></img> </SwiperSlide>
+          <SwiperSlide><img src={aboutSwiperImage4} alt="Ab4"></img> </SwiperSlide>
         </Swiper>
+
+        <Typography>
+          variant="h2"
+          align="left"
+          color="textPrimary"
+          gutterBottom
+          </Typography>
+          About BYDH Construction
+          <CardContent>
+        <Typography variant="h6" align="left" color="textSecondary" paragraph>
+          Welcome to our company&apos;s profile! We are a leading construction
+          company offering a wide range of services in new house construction,
+          old house renovation, and house maintenance. With a team of highly
+          skilled professionals, we have the expertise to bring your vision to
+          life.
+        </Typography>
+      </CardContent>
+
+      <CardContent>
+        <Typography variant="h6" align="left" color="textSecondary" paragraph>
+          Our team comprises a number of licensed building practitioners (LBPs)
+          who have undergone rigorous training and hold the necessary
+          certifications. This ensures that our work is carried out by qualified
+          individuals who are well-versed in the latest building standards and
+          practices.
+        </Typography>
+      </CardContent>
+
+        <Box sx={{ width: "100%", height: "100%" }}>
+        
       </Box>
         
         <div>
