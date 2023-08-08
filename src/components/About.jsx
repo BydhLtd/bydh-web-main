@@ -43,10 +43,10 @@ const About = () => {
           align={"left"}
           color={"textPrimary"}
           gutterBottom>
-          
+          About BYDH Construction
           </Typography>
 
-          About BYDH Construction
+          
           <CardContent>
         <Typography variant="h6" align="left" color="textSecondary" paragraph>
           Welcome to our company&apos;s profile! We are a leading construction
