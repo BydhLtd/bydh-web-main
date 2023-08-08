@@ -1,14 +1,14 @@
 import * as React from "react";
-import { Typography, Container, Grid, Button,} from "@mui/material";
+import { Typography, Container, Grid, Button, CardContent,} from "@mui/material";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import Box from "@mui/material/Box";
 
-import aboutSwiperImage1 from '../resources/images/44PhillipStreet-1.jpg'
-import aboutSwiperImage2 from '../resources/images/44PhillipStreet-2.jpg'
-import aboutSwiperImage3 from '../resources/images/44PhillipStreet-3.jpg'
-import aboutSwiperImage4 from '../resources/images/44PhillipStreet-4.jpg'
+import aboutSwiperImage1 from '../resources/images/new bulid/44PhillipStreet-1.jpg'
+import aboutSwiperImage2 from '../resources/images/new bulid/44PhillipStreet-2.JPG'
+import aboutSwiperImage3 from '../resources/images/new bulid/44PhillipStreet-3.JPG'
+import aboutSwiperImage4 from '../resources/images/new bulid/44PhillipStreet-4.JPG'
 
 
 // Import Swiper styles
@@ -22,7 +22,7 @@ import "../style.css";
 const About = () => {
   return (
     <div>
-      <Container id="about" maxWidth="lg" sx={{ width: "40%" }} >
+      <Container id="about" maxWidth="lg" sx={{ width: "100%" }} >
       <Swiper
           cssMode={true}
           navigation={true}
@@ -38,12 +38,14 @@ const About = () => {
           <SwiperSlide><img src={aboutSwiperImage4} alt="Ab4"></img> </SwiperSlide>
         </Swiper>
 
-        <Typography>
-          variant="h2"
-          align="left"
-          color="textPrimary"
-          gutterBottom
+        <Typography
+          variant={"h2"}
+          align={"left"}
+          color={"textPrimary"}
+          gutterBottom>
+          
           </Typography>
+
           About BYDH Construction
           <CardContent>
         <Typography variant="h6" align="left" color="textSecondary" paragraph>
