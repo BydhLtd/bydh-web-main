@@ -9,7 +9,7 @@ import aboutSwiperImage1 from '../resources/images/new bulid/44PhillipStreet-1.j
 import aboutSwiperImage2 from '../resources/images/new bulid/44PhillipStreet-2.JPG'
 import aboutSwiperImage3 from '../resources/images/new bulid/44PhillipStreet-3.JPG'
 import aboutSwiperImage4 from '../resources/images/new bulid/44PhillipStreet-4.JPG'
-
+import aboutSwiperImage5 from '../resources/images/new bulid/44PhillipStreet- (24).jpg'
 
 // Import Swiper styles
 import "swiper/css";
@@ -32,10 +32,11 @@ const About = () => {
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
           className="mySwiper"
         >
-          <SwiperSlide><img src={aboutSwiperImage1} alt="Ab1"></img> </SwiperSlide>
-          <SwiperSlide><img src={aboutSwiperImage2} alt="Ab2"></img> </SwiperSlide>
+          <SwiperSlide><img src={aboutSwiperImage2} alt="Abcover"></img> </SwiperSlide>
+          <SwiperSlide><img src={aboutSwiperImage1} alt="Ab2"></img> </SwiperSlide>
           <SwiperSlide><img src={aboutSwiperImage3} alt="Ab3"></img> </SwiperSlide>
           <SwiperSlide><img src={aboutSwiperImage4} alt="Ab4"></img> </SwiperSlide>
+          <SwiperSlide><img src={aboutSwiperImage5} alt="Ab5"></img> </SwiperSlide>
         </Swiper>
 
         <Typography
@@ -67,30 +68,12 @@ const About = () => {
         </Typography>
       </CardContent>
 
-      <CardContent>
-        <Typography variant="h6" align="left" color="textSecondary" paragraph>
-         True
-        </Typography>
-      </CardContent>
 
         <Box sx={{ width: "100%", height: "100%" }}>
         
       </Box>
         
-        <div>
-          <Grid container spacing={3} justifyContent="center">
-            <Grid item>
-              <Button variant="contained" color="primary">
-                Button1
-              </Button>
-            </Grid>
-            <Grid item>
-              <Button variant="outlined" color="primary">
-              Button2
-              </Button>
-            </Grid>
-          </Grid>
-        </div>
+        
       </Container>
     </div>
   );
