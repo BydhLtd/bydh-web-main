@@ -52,20 +52,6 @@ const Home = () => {
         </Typography>
       </CardContent>
 
-      <div>
-        <Grid container spacing={3} justifyContent="center">
-          <Grid item>
-            <Button variant="contained" color="primary">
-              BYDH
-            </Button>
-          </Grid>
-          <Grid item>
-            <Button variant="outlined" color="primary">
-              BYDH
-            </Button>
-          </Grid>
-        </Grid>
-      </div>
     </Container>
   );
 };
