@@ -11,11 +11,15 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+// custom bydh icon
+import { ReactComponent as Logosvg } from "../../resources/images/BYDH.svg";
+import SvgIcon from "@mui/material/SvgIcon";
+//import AdbIcon from '@mui/icons-material/Adb';   
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import { Link,  useLocation } from "react-router-dom";
 import Logo  from '../../resources/images/BYDH.png';
+
 
 
 const pages = ['About', 'Business' ];
@@ -36,8 +40,10 @@ const HeaderAppBar = ({routes}) => {
 
   const logo = () =>{
     return(
-      <Box sx={{ display: { xs: 'none', md: 'flex' }}}>
-          <AdbIcon sx={{mr:1}}/>
+      <Box sx={{ display: { xs: 'none', md: 'flex' }}}>      
+      <SvgIcon sx={{mr:1}}/> 
+      <Logosvg className="icon"/>
+      
           <Typography
             variant="h6"
             noWrap
@@ -54,9 +60,12 @@ const HeaderAppBar = ({routes}) => {
           >
             Home
           </Typography>
+      
+        
       </Box>
     );
   }
+
 
 
   return (
@@ -104,7 +113,7 @@ const HeaderAppBar = ({routes}) => {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1,  ml: { xs: 5, md: 0 }   }} />
+          <SvgIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1,  ml: { xs: 5, md: 0 }   }} />
           <Typography
             variant="h5"
             noWrap
