@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc805bd0.css",
+    "main.js": "/static/js/main.b4b21bff.js",
+    "static/media/44PhillipStreet-1.jpg": "/static/media/44PhillipStreet-1.228f04282b5dad0996d1.jpg",
+    "static/media/44PhillipStreet- (24).jpg": "/static/media/44PhillipStreet- (24).e7caffdb9d58b0e40f78.jpg",
+    "static/media/44PhillipStreet-3.JPG": "/static/media/44PhillipStreet-3.d31b8f95abcd5a4a1335.JPG",
+    "static/media/44PhillipStreet-2.JPG": "/static/media/44PhillipStreet-2.d6d21add1da602147a74.JPG",
+    "static/media/44PhillipStreet-4.JPG": "/static/media/44PhillipStreet-4.64ff77e879f114197a88.JPG",
+    "static/media/BYDH.png": "/static/media/BYDH.4ba2670919a86d991fac.png",
+    "static/media/BYDH.svg": "/static/media/BYDH.beaffb463b306af78e585e11ee29f7e5.svg",
+    "index.html": "/index.html",
+    "main.fc805bd0.css.map": "/static/css/main.fc805bd0.css.map",
+    "main.b4b21bff.js.map": "/static/js/main.b4b21bff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc805bd0.css",
+    "static/js/main.b4b21bff.js"
+  ]
+}
