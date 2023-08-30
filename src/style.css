@@ -55,3 +55,20 @@
   height: 10%; 
   
 }
+
+.FooterBox {
+  padding: 60px 60px;
+  background: darkgray;
+  position: fixed;
+  max-width: 1200px;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  overflow-x: hidden;
+
+}
+
+.FooterHeader2Text{
+  font-size: 18px;
+  color: aliceblue;
+}

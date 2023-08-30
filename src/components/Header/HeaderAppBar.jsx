@@ -18,7 +18,7 @@ import SvgIcon from "@mui/material/SvgIcon";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import { Link,  useLocation } from "react-router-dom";
-import Logo  from '../../resources/images/BYDH.png';
+
 
 
 
