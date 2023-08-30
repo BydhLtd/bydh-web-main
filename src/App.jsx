@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { CssBaseline, Typography, Container } from "@mui/material";
+import { CssBaseline, Typography, Container, Box } from "@mui/material";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -13,6 +13,8 @@ import HeaderAppBar from "./components/Header/HeaderAppBar";
 
 
 import "./style.css";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import { Sticky } from "@fluentui/react";
 
 const App = () => {
   const homePagePath = process.env.REACT_APP_PUBLISH_URL;
@@ -32,6 +34,7 @@ const App = () => {
           <Container id="header-app-bar">
             <HeaderAppBar routes={routes}></HeaderAppBar>
           </Container>
+          <Box>
           <Routes>
             {routes.map((item, index) => {
               console.log("item.path", item.tab, index);
@@ -45,7 +48,12 @@ const App = () => {
               );
             })}
           </Routes>
+
+          </Box>
+          <Box id="footer">
           <Footer></Footer>
+          </Box>
+
         </Container>
       </Router>
     </>

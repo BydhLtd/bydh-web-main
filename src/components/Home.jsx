@@ -8,19 +8,12 @@ import {
   CardContent,
 } from "@mui/material";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
 import Box from "@mui/material/Box";
 
 
-import Innovation  from '../resources/images/innovation.png'
-import Logo  from '../resources/images/BYDH.png'
 
 // Import Swiper styles
-import "swiper/css";
-import 'swiper/css/navigation';
-import "swiper/css/pagination";
 
 import "../style.css";
 

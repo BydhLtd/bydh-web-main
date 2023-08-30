@@ -10,6 +10,7 @@
     height: 100%;
 }
 
+
 #test{
   padding-left: 0%;
 }
@@ -59,7 +60,7 @@
 .FooterBox {
   padding: 60px 60px;
   background: darkgray;
-  position: fixed;
+  position: sticky;
   max-width: 1200px;
   bottom: 0;
   width: 100%;
